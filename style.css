@@ -7,95 +7,94 @@ body {
     list-style-type: none;
   }
   
-  .grid-container {
+.grid-container {
       display: grid;
       grid-template-columns: 1fr 3fr 1fr;
       column-gap: 30px;
   }
   
-  header {
+header {
       grid-column: span 3;
       text-align: center;
       background-color: black;
       color: white;
       font-family: 'Carrois Gothic SC', sans-serif;
   }
-  
-  #logo {
+
+#logo {
     padding-top: 30px;
 }
   
-  footer {
+footer {
       grid-column: span 3;
       text-align: center;
       color: floralwhite;
       background-color: black;
   }
   
-  nav {
+nav {
       border-right: 1px solid #ddd;
       padding: 5px;
   }
   
-  .navbutton {
+.navbutton {
       color: black;
       padding: 30px;
   }
   
-  nav > ul > p {
+nav > ul > p {
       margin-left: 30px;
       margin-top: 30px;
-  }
+}
   
-  .nav-head {
+.nav-head {
       color: white;
       font-family: Poppins, sans-serif;
-      text-decoration: none;
-  }
+      text-decoration: none;}
   
-  #nav-header {
+#nav-header {
       display: flex;
       justify-content: space-around;
       background-color: black;
       margin-bottom: 0px;
-  }
+}
   
-  .nav-head:hover {
+.nav-head:hover {
       opacity: 0.7;
-  }
+}
   
-  article {
+article {
       font-family: Poppins, sans-serif;
       padding: 30px;
-  }
+}
   
-  article h2 {
+article h2 {
       text-align: center;
       font-size: 2em;
       max-width: 800px;
-  }
+}
   
-  article h3 {
+article h3 {
       text-align: center;
       font-size: 1em;
-  }
+}
   
-  article img {
+article img {
       width: 100%;
-  }
+}
   
-  article p {
+article p {
       margin-top: 30px;
       line-height: 2em;
       color: #777;
-  }
+}
   
-  aside {
+aside {
       border-left: 1px solid #ddd;
       padding: 30px;
-  }
+}
   
-  .fa {
+.fa {
       padding: 20px;
       font-size: 30px;
       width: 15px;
@@ -103,43 +102,43 @@ body {
       text-decoration: none;
       background-color: black;
       color: white;
-  }
+}
   
-  .fa-facebook {
+.fa-facebook {
       margin-left: 30px;}
   
-  .fa:hover {
+.fa:hover {
           opacity: 0.7;
-  }
-  /* responsive */
-  
-  @media screen and (max-width: 1200px) {
-      nav {
-          grid-column: span 3;
-          border-right: 0;
-          border-bottom: 1px solid #ddd;
-      }
-      nav li {
-          display: inline-block;
-          margin-right: 10px;
-      }
-      article {
-          grid-column: span 2;
-      }
-      aside {
-          padding: 16px;
-      }
-  }
-  
-  @media screen and (max-width: 980px){
-      nav, article, aside {
-          grid-column: span 3;
-      }
-      aside {
-          border-left: 0;
-          border-top: 1px solid #ddd;
-      }
-      article h2 {
-          font-size: 2em;
-      }
-  }  
+}
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+    nav {
+        grid-column: span 3;
+        border-right: 0;
+        border-bottom: 1px solid #ddd;
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    article {
+        grid-column: span 2;
+    }
+    aside {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    nav, article, aside {
+        grid-column: span 3;
+    }
+    aside {
+        border-left: 0;
+        border-top: 1px solid #ddd;
+    }
+    article h2 {
+        font-size: 2em;
+    }
+}  
