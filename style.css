@@ -57,6 +57,7 @@ nav > ul > p {
       justify-content: space-around;
       background-color: black;
       margin-bottom: 0px;
+      margin-top: 0px;
 }
   
 .nav-head:hover {
