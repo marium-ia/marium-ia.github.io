@@ -183,7 +183,7 @@ aside {
         grid-column: span 2;
     }
     aside {
-        padding: 16px;
+        padding: 30px;
     }
     #see-more {
         grid-column: span 3;
@@ -208,12 +208,10 @@ aside {
     #leila {
         grid-row-start: 2;
         grid-column-end: span 3;
-
     }
     #glitch {
         grid-row-start: 3;
         grid-column-end: span 3;
-
     }
 }
 
