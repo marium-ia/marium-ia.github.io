@@ -203,16 +203,16 @@ body {
       }
       #paheli {
           grid-row-start: 1;
-          grid-column-end: span 2;
+          grid-column-end: span 3;
       } 
       #leila {
           grid-row-start: 2;
-          grid-column-end: span 2;
+          grid-column-end: span 3;
   
       }
       #glitch {
           grid-row-start: 3;
-          grid-column-end: span 2;
+          grid-column-end: span 3;
   
       }
   }  
